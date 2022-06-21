@@ -124,6 +124,12 @@
 
 # to-do list
 
+- 如何修改 ViewSet 类默认产生的 restful api 视图
+- 自动化操作
+  - 自动化注册 router
+  - 自动化执行 dbrouter
+  - 自动化注册 admin site
+
 # done list
 
 - 错误的统一处理，请求统一处理，响应统一处理 -- 使用中间件和装饰器
