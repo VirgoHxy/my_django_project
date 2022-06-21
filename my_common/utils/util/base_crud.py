@@ -3,7 +3,7 @@ from django.db import models
 from django.core.paginator import Paginator
 from rest_framework import serializers
 
-from my_common.utils.exception.my_exception import BusinessException
+from my_common.utils.exception.exception import BusinessException
 
 
 class BaseCRUDMapper():

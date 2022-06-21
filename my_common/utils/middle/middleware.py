@@ -7,7 +7,7 @@ from django.middleware.common import MiddlewareMixin
 from my_common.utils.decorator.decorator import is_return_base_response, is_token_required
 from my_common.utils.util.jwt_util import JWTUtil
 from my_common.utils.util.base_response import BaseResponse
-from my_common.utils.exception.my_exception import ParamInvaildException, StatusCodeEnum, BusinessException, TokenException
+from my_common.utils.exception.exception import ParamInvaildException, StatusCodeEnum, BusinessException, TokenException
 
 logger = logging.getLogger('django')
 

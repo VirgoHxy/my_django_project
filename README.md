@@ -83,7 +83,7 @@
   - 添加应用名到 settings.py 的 INSTALLED_APPS
 - 安装所需依赖
   - 通过 pip 安装依赖，注意使用虚拟环境保持依赖的干净
-  - 通过 pip 生成 requirements.txt -- pip freeze > requirements.txt
+  - 通过 pip 生成 requirements.txt -- pip freeze > requirements.txt / 使用 pipreqs
   - 其他即可通过 pip 一键安装依赖 -- pip install -r requirements.txt
 - 配置项目数据库
   - 修改 settings.py 的 DATABASES
@@ -111,9 +111,10 @@
 
 # question list
 
-- django 框架让请求末尾必须加个斜线， 框架好像做了一层重定向
+- django 框架让请求末尾必须加个斜线，框架好像做了一层重定向，使用配置不加后又会出现其他问题
 - vscode 无法支持插件的提示，如 restframework 和 drf-yasg 都是没有提示的
 - \_\_init\_\_.py 太多问题，能否不使用\_\_init\_\_.py 定义为包，并能够正常 import
+- dbrouters，需要手动判断 router 的一个模型属于那个 db，能否通过一个条件判断一系列模型属于那个 db
 
 # solved question list
 
@@ -123,11 +124,8 @@
 
 # to-do list
 
-- 手动操作自动化
-  - dbrouters
-
 # done list
 
 - 错误的统一处理，请求统一处理，响应统一处理 -- 使用中间件和装饰器
-- 请求的参数控制 drf-yasg 文档生成配置
+- 请求的参数的文档生成 drf-yasg + swagger
 - service 重复方法使用继承，并采用 mapper + base_service + service

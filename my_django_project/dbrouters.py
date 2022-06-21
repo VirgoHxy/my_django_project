@@ -1,5 +1,4 @@
 from my_common.models.mysql_test import RecordModel
-# from my_common.models.mysql import UserModel
 
 
 class MyDBRouter(object):

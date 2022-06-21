@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from my_common.utils.exception.my_exception import ParamInvaildException
+from my_common.utils.exception.exception import ParamInvaildException
 
 
 class CheckParamUtil:
