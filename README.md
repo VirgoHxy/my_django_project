@@ -2,7 +2,7 @@
 
 - 首先个人主观说明，python 不适合去做后台 api 接口，它的设计理念很难舒适的去做 api 的增删改查
 - 推荐 api 开发使用 nodejs 或者 java，这两个在 api 的开发中再搭配其他框架会非常舒适，有 TS 基础再学习 JAVA 非常友好
-- 目前项目基本上都是前后端分离，所以并不能使用 MVT 的架构，所以本项目还是采用 MVCS 架构，基本设计理念和结构分层按照 springboot + python 设计
+- 目前项目基本上都是前后端分离，所以并不能使用 MVT 的架构，所以本项目还是采用 MVCS 架构，基本设计理念和结构分层按照 springboot 设计
 
 # 依赖说明
 
@@ -125,6 +125,7 @@
 # to-do list
 
 - 如何修改 ViewSet 类默认产生的 restful api 视图
+- 事务
 - 自动化操作
   - 自动化注册 router
   - 自动化执行 dbrouter
